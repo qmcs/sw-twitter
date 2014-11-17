@@ -62,11 +62,11 @@ Tasks
 
 1. Write a script that generates an timeline plot for a collection of tweets.
 
-  * The script should take the name of an input file (e.g. ``olympics.txt``) as a positional argument.
-  * The  generated plot should be stored in file with a name passed using an optional argument ``--output`` (e.g. ``--output olympics.png``)
-  * It should be possible run the script using the following command::
+ * The script should take the name of an input file (e.g. ``olympics.txt``) as a positional argument.
+ * The  generated plot should be stored in file with a name passed using an optional argument ``--output`` (e.g. ``--output olympics.png``)
+ * It should be possible run the script using the following command::
 
-      timeline.py olympics.txt --output olympics.png
+     timeline.py olympics.txt --output olympics.png
 
 2. Write a script that given a ``*_reply.csv.gz`` file plots the distribution of differences of the ID of a tweet and the tweet's ID it's a reply to.
 
