@@ -1,0 +1,48 @@
+set term pdfcairo size 6in,0.9in font "Times New Roman, 9"
+
+set termoption dash
+set output "timeline.pdf"
+
+set style line 1 lw 3 lc rgb "#6e56a1"
+set style line 2 lw 3 lc rgb "#fdc20e"
+
+set format x "%m-%d %H:%M"
+
+set key left top
+
+set xdata time
+set timefmt "%Y-%m-%d-%H"
+
+set y2tics
+set ytics nomirror
+
+#set xlabel "Time"
+set ylabel "Tweets per hour"
+set y2label "Total tweets"
+
+#set yrange [0:15000]
+#set xrange ["2012-04-30-00":"2012-04-31-23-59"]
+
+set title "Queens Day 2012"
+
+plot "koninginnedag.txt" using 1:2 with lines title 'Tweets per hour' ls 1, \
+     ""  using 1:2 with lines smooth cumul title 'Total tweets' axis x1y2 ls 2
+
+set title "London Olympics"
+
+plot "olympics.txt" using 1:2 with lines title 'Tweets per hour' ls 1, \
+     ""  using 1:2 with lines smooth cumul title 'Total tweets' axis x1y2 ls 2
+
+set title "UEFA Euro"
+set format x "%b %d"
+set xrange ["2012-06-07-00":"2012-06-31-23-59"]
+
+plot "uefa_euro.txt" using 1:2 with lines title 'Tweets per hour' ls 1, \
+     ""  using 1:2 with lines smooth cumul title 'Total tweets' axis x1y2 ls 2
+
+set title "Pinkpop"
+set format x "%b %d"
+set xrange ["2012-03-01-00":"2012-06-31-23-59"]
+
+plot "pinkpop.txt" using 1:2 with lines title 'Tweets per hour' ls 1, \
+     ""  using 1:2 with lines smooth cumul title 'Total tweets' axis x1y2 ls 2
