@@ -82,8 +82,11 @@ Tasks
 
 You might want to use `Pandas`_ for data processing and plotting, and `opster`_
 for handling command line arguments. Opster is available in this repo as
-``opster.py``.
+``opster.py``. Refer to the Overview__ section of the opster docs to see how
+options are defined.
 
 
 .. _Pandas: http://pandas.pydata.org/pandas-docs/stable/
 .. _opster: http://opster.readthedocs.org/
+
+__ overview http://opster.readthedocs.org/en/latest/overview.html
