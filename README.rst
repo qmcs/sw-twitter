@@ -90,3 +90,24 @@ options are defined.
 .. _opster: http://opster.readthedocs.org/
 
 __ http://opster.readthedocs.org/en/latest/overview.html
+
+License
+=======
+
+The datasets are based on the collection of tweets gathered for the experiments
+described in [1] and processed by poultry_. Contact dimazest@gmail.com in case
+you want to get the tweets.
+
+.. _poultry: http://poultry.readthedocs.org
+
+.. image:: http://i.creativecommons.org/l/by/4.0/80x15.png
+
+This work is licensed under a `Creative Commons Attribution 4.0 International
+License <http://creativecommons.org/licenses/by/4.0/deed.en_US>`_.
+
+.. [1] Milajevs, Dmitrijs, and Gosse Bouma. `Real time discussion retrieval from
+   Twitter`__. In Proceedings of the 22nd international conference on World Wide
+   Web companion, pp. 795-800. International World Wide Web Conferences
+   Steering Committee, 2013.
+
+   __ http://www2013.wwwconference.org/companion/p795.pdf
