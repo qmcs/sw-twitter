@@ -1,0 +1,6 @@
+poultry
+data/
+
+*.pyc
+
+.DS_Store
