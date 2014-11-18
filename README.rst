@@ -95,7 +95,7 @@ License
 =======
 
 The datasets are based on the collection of tweets gathered for the experiments
-described in [1] and processed by poultry_. Contact dimazest@gmail.com in case
+described in [1]_ and processed by poultry_. Contact dimazest@gmail.com in case
 you want to get the tweets.
 
 .. _poultry: http://poultry.readthedocs.org
