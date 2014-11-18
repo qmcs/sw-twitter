@@ -89,4 +89,4 @@ options are defined.
 .. _Pandas: http://pandas.pydata.org/pandas-docs/stable/
 .. _opster: http://opster.readthedocs.org/
 
-__ overview http://opster.readthedocs.org/en/latest/overview.html
+__ http://opster.readthedocs.org/en/latest/overview.html
